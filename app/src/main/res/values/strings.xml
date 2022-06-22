@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Haptics</string>
+    <string name="haptics">Haptic effects</string>
+    <string name="clock_tick">Clock tick</string>
+    <string name="keyboard_tap">Keyboard tap</string>
+    <string name="double_click">Double click</string>
+    <string name="annoying_press">Very annoying</string>
+    <string name="vibration_not_enabled">Warning: Vibration not enabled on this device! Click here to open settings.</string>
+    <string name="vibrations_not_supported">Alert: Default effects not supported, using custom vibrations…</string>
+</resources>
