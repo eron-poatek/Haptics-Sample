@@ -61,23 +61,23 @@ class MainActivity : AppCompatActivity() {
      */
     @SuppressLint("ClickableViewAccessibility")
     private fun setListeners() {
-        binding.hapticsBtn1.setOnTouchListener { view, _ ->
+        binding.hapticsClockTickButton.setOnTouchListener { view, _ ->
             view.performHapticFeedback(HapticFeedbackConstants.CLOCK_TICK)
             view.performClick()
         }
 
-        binding.hapticsBtn2.setOnClickListener {
+        binding.hapticsKeyboardTapButton.setOnClickListener {
             it.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)
         }
 
-        binding.hapticsBtn3.setOnClickListener {
+        binding.hapticsDoubleClickButton.setOnClickListener {
             val effect = createWaveform(longArrayOf(0, 30, 100, 30), -1)
             val vibrator = getVibrator()
             vibrator.cancel()
             vibrator.vibrate(effect)
         }
 
-        binding.hapticsBtn4.setOnClickListener {
+        binding.hapticsLongVibrationButton.setOnClickListener {
             val effect = createOneShot(2000, 255)
             val vibrator = getVibrator()
             vibrator.cancel()

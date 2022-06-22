@@ -84,7 +84,7 @@
             <androidx.constraintlayout.helper.widget.Flow
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:constraint_referenced_ids="haptics_btn_1, haptics_btn_2, haptics_btn_3, haptics_btn_4"
+                app:constraint_referenced_ids="haptics_clock_tick_button, haptics_keyboard_tap_button, haptics_double_click_button, haptics_long_vibration_button"
                 app:flow_maxElementsWrap="1"
                 app:flow_verticalGap="16dp"
                 app:flow_wrapMode="chain"
@@ -93,7 +93,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/haptics_btn_1"
+                android:id="@+id/haptics_clock_tick_button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/haptics_btn_2"
+                android:id="@+id/haptics_keyboard_tap_button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/haptics_btn_3"
+                android:id="@+id/haptics_double_click_button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/haptics_btn_4"
+                android:id="@+id/haptics_long_vibration_button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
